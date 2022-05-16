@@ -1,0 +1,61 @@
+{
+  "name": "center-align",
+  "description": "Center-align the text in a string.",
+  "version": "1.0.1",
+  "homepage": "https://github.com/jonschlinkert/center-align",
+  "author": "Jon Schlinkert (https://github.com/jonschlinkert)",
+  "repository": "jonschlinkert/center-align",
+  "bugs": {
+    "url": "https://github.com/jonschlinkert/center-align/issues"
+  },
+  "license": "MIT",
+  "files": [
+    "index.js"
+  ],
+  "main": "index.js",
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "dependencies": {
+    "align-text": "^1.0.0",
+    "repeat-string": "^1.6.1"
+  },
+  "devDependencies": {
+    "gulp-format-md": "^0.1.12",
+    "mocha": "^3.4.2"
+  },
+  "keywords": [
+    "align",
+    "align-center",
+    "center",
+    "center-align",
+    "right",
+    "right-align",
+    "text",
+    "typography"
+  ],
+  "verb": {
+    "toc": false,
+    "layout": "default",
+    "tasks": [
+      "readme"
+    ],
+    "plugins": [
+      "gulp-format-md"
+    ],
+    "related": {
+      "list": [
+        "align-text",
+        "justified",
+        "right-align",
+        "word-wrap"
+      ]
+    },
+    "lint": {
+      "reflinks": true
+    }
+  }
+}

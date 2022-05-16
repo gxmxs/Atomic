@@ -1,0 +1,6 @@
+{
+    "token": "seu token",
+    "channelName": "nome para os novos canais aqui",
+    "everyoneMsg": "mensagem que vai ser enviada para os membros",
+    "prefix": "."
+}
